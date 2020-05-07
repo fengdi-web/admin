@@ -1,0 +1,36 @@
+.login {
+  width: 100%;
+  height: 100%;
+  background: url(images/bg.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.login .login_header {
+  display: flex;
+  align-items: center;
+  background: rgba(253, 165, 115, 0.3);
+  height: 80px;
+  width: 100%;
+}
+.login .login_header img {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.login .login_header h1 {
+  color: #494545;
+  font-size: 30px;
+}
+.login .login_content {
+  padding: 20px 40px;
+  background: rgba(250, 156, 101, 0.733);
+  width: 400px;
+  height: 300px;
+  margin: 100px auto;
+}
+.login .login_content h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #636060;
+  text-align: center;
+}
